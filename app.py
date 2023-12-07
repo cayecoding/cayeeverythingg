@@ -31,7 +31,7 @@ img_lottie_animation = Image.open("images/yt_lottie_animation.png")
 # ---- HEADER SECTION ----
 with st.container():
     st.subheader("Hi, I am Caye Ruaya:wave:")
-    st.title("A  Student from SNSU")
+    st.title("A  Engineering Student")
     st.write(
         "I am passionate about finding ways to use Python and VBA to be more efficient and effective in business settings."
     )
@@ -111,5 +111,4 @@ with st.container():
     with left_column:
         st.markdown(contact_form, unsafe_allow_html=True)
     with right_column:
-        st.empty()
-
+        st.empty()      
